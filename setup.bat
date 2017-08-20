@@ -22,3 +22,8 @@ choco install -y jmeter;
 choco install -y redis-64;
 choco install -y chocolateyexplorer;
 choco install -y golang;
+choco install -y cloudfoundry-cli;
+choco install -y docker-machine;
+choco install -y heroku-cli;
+choco install -y rclone;
+choco install -y skyfonts;
