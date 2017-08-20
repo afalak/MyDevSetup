@@ -35,3 +35,8 @@ choco install -y greenshot;
 choco install -y mingw;
 choco install -y snaketail.install;
 choco install -y tomcat;
+choco install -y opera;
+choco install -y cmake.install;
+choco install -y rufus;
+choco install -y docker-compose;
+choco install -y mysql-connector-java;
