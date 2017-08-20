@@ -1,24 +1,24 @@
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
-choco install chocolatey-core.extension;
-choco install chocolateygui;
-choco install chocolatey-windowsupdate.extension;
-choco install putty.install;
-choco install keepass.install;
-choco install openssh;
-choco install git.install;
-choco install clink;
-choco install wincommandpaste;
-choco install conemu;
-choco install tortoisegit;
-choco install visualstudiocode
-choco install notepadplusplus.install
-choco install virtualbox
-choco install vboxvmservice
-choco install docker-toolbox
-choco install eclipse
-choco install jdk8
-choco install maven
-choco install jmeter
-choco install redis-64
-choco install chocolateyexplorer
-choco install golang
+choco -y install chocolatey-core.extension;
+choco -y install chocolateygui;
+choco -y install chocolatey-windowsupdate.extension;
+choco -y install putty.install;
+choco -y install keepass.install;
+choco -y install openssh;
+choco -y install git.install;
+choco -y install clink;
+choco -y install wincommandpaste;
+choco -y install conemu;
+choco -y install tortoisegit;
+choco -y install visualstudiocode;
+choco -y install notepadplusplus.install;
+choco -y install virtualbox;
+choco -y install vboxvmservice;
+choco -y install docker-toolbox;
+choco -y install eclipse;
+choco -y install jdk8;
+choco -y install maven;
+choco -y install jmeter;
+choco -y install redis-64;
+choco -y install chocolateyexplorer;
+choco -y install golang;
