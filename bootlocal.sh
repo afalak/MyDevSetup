@@ -1,4 +1,6 @@
 #!/bin/sh
+export HTTP_PROXY=http://grc-india-pitc-wkcz.proxy.corporate.gtm.ge.com:80
+export HTTPS_PROXY=http://grc-india-pitc-wkcz.proxy.corporate.gtm.ge.com:80
 BOOT2DOCKER_CERTS_DIR=/var/lib/boot2docker/certs
 CERTS_DIR=/etc/ssl/certs
 CAFILE=${CERTS_DIR}/ca-certificates.crt
