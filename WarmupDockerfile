@@ -1,0 +1,5 @@
+FROM alpine
+FROM redis:alpine
+FROM memcached:alpine
+FROM postgres:alpine
+FROM rabbitmq:management-alpine
