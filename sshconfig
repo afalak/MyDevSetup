@@ -1,0 +1,24 @@
+Host *
+	AddressFamily inet
+	Protocol 2,1
+	Compression yes
+	LogLevel INFO
+	PreferredAuthentications=publickey
+	ForwardX11 no
+	ForwardX11Trusted yes
+	ForwardAgent no
+	ControlPersist 1
+	ServerAliveInterval 60
+	ServerAliveCountMax 30
+	ControlMaster auto
+Host github.build.ge.com
+	HostName github.build.ge.com
+	User git
+HOST *.ge.com
+	User f1009812
+Host github.com
+	HostName github.com
+	User afalak
+Host jflab
+	Hostname jflab
+	User test
